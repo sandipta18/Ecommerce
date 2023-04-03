@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Database\\Database' => $baseDir . '/application/models/Database/DatabaseConnection.php',
+    'FPDF' => $vendorDir . '/setasign/fpdf/fpdf.php',
+    'UserClass\\UserClass' => $baseDir . '/application/models/User/UserClass.php',
 );

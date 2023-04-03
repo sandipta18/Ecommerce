@@ -1,17 +1,12 @@
 {
-    "name": "sandipta/local-notepad-app.com",
     "autoload": {
-        "psr-4": {
-            "Sandipta\\LocalNotepadAppCom\\": "src/"
-        }
+        "classmap": [
+            "application/models/",
+            "fpdf/"
+        ]
     },
-    "authors": [
-        {
-            "name": "sandipta18",
-            "email": "sandipta.sardar@innoraft.com"
-        }
-    ],
     "require": {
-        "phpmailer/phpmailer": "^6.8"
+        "phpmailer/phpmailer": "^6.8",
+        "setasign/fpdf": "^1.8"
     }
 }
